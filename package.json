@@ -1,0 +1,13 @@
+{
+  "name": "com.marlonruvalcaba.pooling",
+  "version": "1.0.1",
+  "displayName": "Pooling Utils",
+  "description": "Utils for object pooling.",
+  "unity": "2020.2",
+  "author": {
+    "name": "Marlon Ruvalcaba",
+    "email": "adrianr76@gmail.com",
+    "url": "https://github.com/darkon76"
+  },
+  "type": "library"
+}

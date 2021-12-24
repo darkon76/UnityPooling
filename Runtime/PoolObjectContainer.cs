@@ -4,7 +4,7 @@ using UnityEngine;
 namespace ObjectPool
 {
     [System.Serializable]
-    public class PoolObjectContainer<T>: IPool where T : Component
+    public class PoolObjectContainer<T>: IPool where T : UnityEngine.Component
     {
         [SerializeField] private T _template;
         [SerializeField] private Transform _parent;

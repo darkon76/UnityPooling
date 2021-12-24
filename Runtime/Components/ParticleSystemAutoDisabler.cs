@@ -1,7 +1,7 @@
 using System.Collections;
 using UnityEngine;
 
-namespace ObjectPool
+namespace ObjectPool.Component
 {
     public class ParticleSystemAutoDisabler : MonoBehaviour
     {

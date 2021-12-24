@@ -13,7 +13,7 @@ namespace ObjectPool
             _parentTransform = parentTransform;
         }
 
-        public void Warm<T>(T component, int count, bool useSpawnedTemplate = true) where T: Component
+        public void Warm<T>(T component, int count, bool useSpawnedTemplate = true) where T: UnityEngine.Component
         {
             if (_containers.ContainsKey(component))
             {
@@ -24,7 +24,7 @@ namespace ObjectPool
             _containers[component] = poolContainer;
         }
 
-        public T Get<T>(T component) where T : Component
+        public T Get<T>(T component) where T : UnityEngine.Component
         {
             if (!_containers.TryGetValue(component, out var objSlot))
             {

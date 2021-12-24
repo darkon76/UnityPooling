@@ -1,7 +1,7 @@
 using UnityEngine;
 using UnityEngine.Audio;
 
-namespace ObjectPool
+namespace ObjectPool.Component
 {
     public class AudioSourcePoolHolder : MonoBehaviour
     {
